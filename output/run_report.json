@@ -1,0 +1,323 @@
+{
+  "input": "Red_Herring_Prospectus.docx",
+  "output": "Red_Herring_Prospectus_redacted.docx",
+  "seconds": 16.7,
+  "text_units": 4215,
+  "text_units_with_pii": 431,
+  "text_redactions_by_type": {
+    "ADDRESS": 82,
+    "EMAIL_ADDRESS": 52,
+    "IN_DIN": 7,
+    "ORGANIZATION": 233,
+    "PERSON": 257,
+    "PHONE_NUMBER": 38,
+    "URL": 28
+  },
+  "text_redactions_by_source": {
+    "AddressRecognizer": 50,
+    "BrokenUrlRecognizer": 1,
+    "ContactPersonRecognizer": 39,
+    "DinRecognizer": 7,
+    "EmailRecognizer": 52,
+    "IndianPhoneRecognizer": 34,
+    "OrganizationSuffixRecognizer": 185,
+    "PhoneRecognizer": 4,
+    "SpacyRecognizer": 213,
+    "UrlRecognizer": 27,
+    "address_block": 32,
+    "continuation": 2,
+    "propagation": 33,
+    "short_form": 18
+  },
+  "unique_values_replaced": 250,
+  "field_codes_rewritten": 50,
+  "hyperlink_targets_rewritten": 0,
+  "images": [
+    {
+      "format": "JPEG",
+      "size": [
+        103,
+        103
+      ],
+      "ocr_lang": "eng",
+      "ocr_words": 1,
+      "is_id_document": false,
+      "redactions": [],
+      "part": "/word/media/image1.jpeg",
+      "modified": false
+    },
+    {
+      "format": "PNG",
+      "size": [
+        194,
+        126
+      ],
+      "ocr_lang": "eng",
+      "ocr_words": 1,
+      "is_id_document": false,
+      "redactions": [],
+      "part": "/word/media/image1.png",
+      "modified": false
+    },
+    {
+      "format": "JPEG",
+      "size": [
+        334,
+        68
+      ],
+      "ocr_lang": "eng",
+      "ocr_words": 2,
+      "is_id_document": false,
+      "redactions": [],
+      "part": "/word/media/image2.jpeg",
+      "modified": false
+    },
+    {
+      "format": "JPEG",
+      "size": [
+        260,
+        53
+      ],
+      "ocr_lang": "eng",
+      "ocr_words": 2,
+      "is_id_document": false,
+      "redactions": [],
+      "part": "/word/media/image3.jpeg",
+      "modified": false
+    },
+    {
+      "format": "PNG",
+      "size": [
+        194,
+        131
+      ],
+      "ocr_lang": "eng",
+      "ocr_words": 0,
+      "is_id_document": false,
+      "redactions": [],
+      "part": "/word/media/image2.png",
+      "modified": false
+    },
+    {
+      "format": "PNG",
+      "size": [
+        310,
+        47
+      ],
+      "ocr_lang": "eng",
+      "ocr_words": 4,
+      "is_id_document": false,
+      "redactions": [],
+      "part": "/word/media/image3.png",
+      "modified": false
+    },
+    {
+      "format": "PNG",
+      "size": [
+        768,
+        962
+      ],
+      "ocr_lang": "eng",
+      "ocr_words": 97,
+      "is_id_document": true,
+      "redactions": [
+        {
+          "type": "IN_PAN",
+          "source": "presidio",
+          "bbox": [
+            253,
+            221,
+            174,
+            22
+          ]
+        },
+        {
+          "type": "DATE_OF_BIRTH",
+          "source": "presidio",
+          "bbox": [
+            40,
+            453,
+            85,
+            16
+          ]
+        },
+        {
+          "type": "PERSON",
+          "source": "id_label",
+          "bbox": [
+            39,
+            301,
+            123,
+            17
+          ]
+        },
+        {
+          "type": "PERSON",
+          "source": "id_label",
+          "bbox": [
+            42,
+            366,
+            131,
+            16
+          ]
+        },
+        {
+          "type": "PERSON",
+          "source": "id_holder",
+          "bbox": [
+            39,
+            301,
+            123,
+            17
+          ]
+        },
+        {
+          "type": "DATE_OF_BIRTH",
+          "source": "id_label",
+          "bbox": [
+            40,
+            453,
+            85,
+            16
+          ]
+        },
+        {
+          "type": "FACE",
+          "source": "opencv_haar",
+          "bbox": [
+            13,
+            107,
+            173,
+            213
+          ]
+        },
+        {
+          "type": "QR_CODE",
+          "source": "qr_texture",
+          "bbox": [
+            514,
+            146,
+            227,
+            228
+          ]
+        }
+      ],
+      "part": "/word/media/image4.png",
+      "modified": true
+    },
+    {
+      "format": "PNG",
+      "size": [
+        900,
+        900
+      ],
+      "ocr_lang": "eng",
+      "ocr_words": 59,
+      "is_id_document": true,
+      "redactions": [
+        {
+          "type": "DATE_OF_BIRTH",
+          "source": "presidio",
+          "bbox": [
+            457,
+            213,
+            84,
+            14
+          ]
+        },
+        {
+          "type": "IN_AADHAAR",
+          "source": "presidio",
+          "bbox": [
+            304,
+            288,
+            211,
+            36
+          ]
+        },
+        {
+          "type": "ADDRESS",
+          "source": "presidio",
+          "bbox": [
+            442,
+            585,
+            105,
+            17
+          ]
+        },
+        {
+          "type": "IN_AADHAAR",
+          "source": "presidio",
+          "bbox": [
+            299,
+            709,
+            229,
+            42
+          ]
+        },
+        {
+          "type": "PERSON",
+          "source": "id_label",
+          "bbox": [
+            457,
+            213,
+            84,
+            14
+          ]
+        },
+        {
+          "type": "PERSON",
+          "source": "id_holder",
+          "bbox": [
+            311,
+            136,
+            110,
+            14
+          ]
+        },
+        {
+          "type": "DATE_OF_BIRTH",
+          "source": "id_label",
+          "bbox": [
+            457,
+            213,
+            84,
+            14
+          ]
+        },
+        {
+          "type": "ADDRESS",
+          "source": "id_label",
+          "bbox": [
+            442,
+            536,
+            246,
+            66
+          ]
+        },
+        {
+          "type": "FACE",
+          "source": "opencv_haar",
+          "bbox": [
+            135,
+            95,
+            184,
+            226
+          ]
+        },
+        {
+          "type": "QR_CODE",
+          "source": "qr_texture",
+          "bbox": [
+            555,
+            172,
+            143,
+            139
+          ]
+        }
+      ],
+      "part": "/word/media/image5.png",
+      "modified": true
+    }
+  ]
+}

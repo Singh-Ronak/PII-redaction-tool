@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Source material (contains real PII) and the reversible mapping file.
+uploads/
+data/
+*mapping*.json
+
+# Office lock files
+~$*

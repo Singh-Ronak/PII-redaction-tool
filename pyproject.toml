@@ -1,0 +1,12 @@
+[project]
+name = "pii-redactor"
+version = "1.0.0"
+description = "In-place PII redaction for Word (.docx) documents: text via Presidio + spaCy, images via Tesseract OCR"
+requires-python = ">=3.10"
+
+[project.scripts]
+pii-redactor = "pii_redactor.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

@@ -1,0 +1,604 @@
+{
+  "rhp": {
+    "units": 390,
+    "token_redaction": {
+      "tp": 764,
+      "fp": 0,
+      "fn": 2,
+      "tn": 5576,
+      "precision": 1.0,
+      "recall": 0.9974,
+      "f1": 0.9987,
+      "accuracy": 0.9997
+    },
+    "token_by_type": {
+      "ADDRESS": {
+        "tp": 357,
+        "fp": 0,
+        "fn": 0,
+        "tn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0
+      },
+      "EMAIL_ADDRESS": {
+        "tp": 69,
+        "fp": 0,
+        "fn": 0,
+        "tn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0
+      },
+      "IN_DIN": {
+        "tp": 7,
+        "fp": 0,
+        "fn": 1,
+        "tn": 0,
+        "precision": 1.0,
+        "recall": 0.875,
+        "f1": 0.9333,
+        "accuracy": 0.875
+      },
+      "ORGANIZATION": {
+        "tp": 145,
+        "fp": 0,
+        "fn": 12,
+        "tn": 0,
+        "precision": 1.0,
+        "recall": 0.9236,
+        "f1": 0.9603,
+        "accuracy": 0.9236
+      },
+      "PERSON": {
+        "tp": 114,
+        "fp": 10,
+        "fn": 0,
+        "tn": 0,
+        "precision": 0.9194,
+        "recall": 1.0,
+        "f1": 0.958,
+        "accuracy": 0.9194
+      },
+      "PHONE_NUMBER": {
+        "tp": 38,
+        "fp": 1,
+        "fn": 0,
+        "tn": 0,
+        "precision": 0.9744,
+        "recall": 1.0,
+        "f1": 0.987,
+        "accuracy": 0.9744
+      },
+      "URL": {
+        "tp": 23,
+        "fp": 0,
+        "fn": 0,
+        "tn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0
+      }
+    },
+    "entity": {
+      "ADDRESS": {
+        "full": 31,
+        "partial": 0,
+        "missed": 0,
+        "total": 31,
+        "full_recall": 1.0
+      },
+      "EMAIL_ADDRESS": {
+        "full": 17,
+        "partial": 0,
+        "missed": 0,
+        "total": 17,
+        "full_recall": 1.0
+      },
+      "IN_DIN": {
+        "full": 8,
+        "partial": 0,
+        "missed": 0,
+        "total": 8,
+        "full_recall": 1.0
+      },
+      "ORGANIZATION": {
+        "full": 50,
+        "partial": 0,
+        "missed": 1,
+        "total": 51,
+        "full_recall": 0.9804
+      },
+      "PERSON": {
+        "full": 44,
+        "partial": 0,
+        "missed": 0,
+        "total": 44,
+        "full_recall": 1.0
+      },
+      "PHONE_NUMBER": {
+        "full": 11,
+        "partial": 0,
+        "missed": 0,
+        "total": 11,
+        "full_recall": 1.0
+      },
+      "URL": {
+        "full": 7,
+        "partial": 0,
+        "missed": 0,
+        "total": 7,
+        "full_recall": 1.0
+      },
+      "ALL": {
+        "full": 168,
+        "partial": 0,
+        "missed": 1,
+        "total": 169,
+        "full_recall": 0.9941
+      }
+    },
+    "false_positives": [],
+    "misses": [
+      [
+        [
+          "ORGANIZATION",
+          "missed: U**********s L**********s"
+        ],
+        1
+      ]
+    ]
+  },
+  "rhp_heldout": {
+    "units": 254,
+    "token_redaction": {
+      "tp": 749,
+      "fp": 12,
+      "fn": 11,
+      "tn": 3431,
+      "precision": 0.9842,
+      "recall": 0.9855,
+      "f1": 0.9849,
+      "accuracy": 0.9945
+    },
+    "token_by_type": {
+      "ADDRESS": {
+        "tp": 308,
+        "fp": 13,
+        "fn": 12,
+        "tn": 0,
+        "precision": 0.9595,
+        "recall": 0.9625,
+        "f1": 0.961,
+        "accuracy": 0.9249
+      },
+      "EMAIL_ADDRESS": {
+        "tp": 138,
+        "fp": 0,
+        "fn": 0,
+        "tn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0
+      },
+      "ORGANIZATION": {
+        "tp": 79,
+        "fp": 2,
+        "fn": 8,
+        "tn": 0,
+        "precision": 0.9753,
+        "recall": 0.908,
+        "f1": 0.9405,
+        "accuracy": 0.8876
+      },
+      "PERSON": {
+        "tp": 80,
+        "fp": 6,
+        "fn": 0,
+        "tn": 0,
+        "precision": 0.9302,
+        "recall": 1.0,
+        "f1": 0.9639,
+        "accuracy": 0.9302
+      },
+      "PHONE_NUMBER": {
+        "tp": 82,
+        "fp": 0,
+        "fn": 0,
+        "tn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0
+      },
+      "URL": {
+        "tp": 53,
+        "fp": 0,
+        "fn": 0,
+        "tn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0
+      }
+    },
+    "entity": {
+      "ADDRESS": {
+        "full": 41,
+        "partial": 1,
+        "missed": 2,
+        "total": 44,
+        "full_recall": 0.9318
+      },
+      "EMAIL_ADDRESS": {
+        "full": 35,
+        "partial": 0,
+        "missed": 0,
+        "total": 35,
+        "full_recall": 1.0
+      },
+      "ORGANIZATION": {
+        "full": 27,
+        "partial": 0,
+        "missed": 1,
+        "total": 28,
+        "full_recall": 0.9643
+      },
+      "PERSON": {
+        "full": 37,
+        "partial": 0,
+        "missed": 0,
+        "total": 37,
+        "full_recall": 1.0
+      },
+      "PHONE_NUMBER": {
+        "full": 25,
+        "partial": 0,
+        "missed": 0,
+        "total": 25,
+        "full_recall": 1.0
+      },
+      "URL": {
+        "full": 16,
+        "partial": 0,
+        "missed": 0,
+        "total": 16,
+        "full_recall": 1.0
+      },
+      "ALL": {
+        "full": 181,
+        "partial": 1,
+        "missed": 3,
+        "total": 185,
+        "full_recall": 0.9784
+      }
+    },
+    "false_positives": [
+      [
+        [
+          "PERSON",
+          "Loksatta"
+        ],
+        2
+      ],
+      [
+        [
+          "ADDRESS",
+          "Bandra Kurla Complex, Bandra (E) Mumbai – 400 051, Maharashtra, India"
+        ],
+        1
+      ]
+    ],
+    "misses": [
+      [
+        [
+          "ORGANIZATION",
+          "missed: T******l"
+        ],
+        1
+      ],
+      [
+        [
+          "ADDRESS",
+          "missed: 5*h F***r, G***l H***e"
+        ],
+        1
+      ],
+      [
+        [
+          "ADDRESS",
+          "partial: O******e H*****l H**l, a***e H**C L*****d K***e R**d, P**e – 4*1 0*8"
+        ],
+        1
+      ],
+      [
+        [
+          "ADDRESS",
+          "missed: T*e C*****l"
+        ],
+        1
+      ]
+    ]
+  },
+  "leak_check": {
+    "unique_gold_values_checked": 91,
+    "leaked_by_type": {
+      "ORGANIZATION": 1
+    },
+    "leaked_total": 1,
+    "leaked_values_masked": [
+      "ORGANIZATION: U**********s L**********s"
+    ]
+  },
+  "leak_check_heldout": {
+    "unique_gold_values_checked": 127,
+    "leaked_by_type": {
+      "ORGANIZATION": 1,
+      "ADDRESS": 2
+    },
+    "leaked_total": 3,
+    "leaked_values_masked": [
+      "ORGANIZATION: T******l",
+      "ADDRESS: 5*h F***r, G***l H***e",
+      "ADDRESS: T*e C*****l"
+    ]
+  },
+  "synthetic": {
+    "units": 58,
+    "token_redaction": {
+      "tp": 165,
+      "fp": 2,
+      "fn": 0,
+      "tn": 305,
+      "precision": 0.988,
+      "recall": 1.0,
+      "f1": 0.994,
+      "accuracy": 0.9958
+    },
+    "token_by_type": {
+      "ADDRESS": {
+        "tp": 25,
+        "fp": 0,
+        "fn": 0,
+        "tn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0
+      },
+      "CREDIT_CARD": {
+        "tp": 15,
+        "fp": 0,
+        "fn": 0,
+        "tn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0
+      },
+      "DATE_OF_BIRTH": {
+        "tp": 21,
+        "fp": 0,
+        "fn": 0,
+        "tn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0
+      },
+      "EMAIL_ADDRESS": {
+        "tp": 22,
+        "fp": 0,
+        "fn": 0,
+        "tn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0
+      },
+      "IP_ADDRESS": {
+        "tp": 18,
+        "fp": 0,
+        "fn": 0,
+        "tn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0
+      },
+      "ORGANIZATION": {
+        "tp": 10,
+        "fp": 0,
+        "fn": 0,
+        "tn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0
+      },
+      "PERSON": {
+        "tp": 24,
+        "fp": 2,
+        "fn": 0,
+        "tn": 0,
+        "precision": 0.9231,
+        "recall": 1.0,
+        "f1": 0.96,
+        "accuracy": 0.9231
+      },
+      "PHONE_NUMBER": {
+        "tp": 24,
+        "fp": 0,
+        "fn": 0,
+        "tn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0
+      },
+      "US_SSN": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "tn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0
+      }
+    },
+    "entity": {
+      "ADDRESS": {
+        "full": 3,
+        "partial": 0,
+        "missed": 0,
+        "total": 3,
+        "full_recall": 1.0
+      },
+      "CREDIT_CARD": {
+        "full": 4,
+        "partial": 0,
+        "missed": 0,
+        "total": 4,
+        "full_recall": 1.0
+      },
+      "DATE_OF_BIRTH": {
+        "full": 7,
+        "partial": 0,
+        "missed": 0,
+        "total": 7,
+        "full_recall": 1.0
+      },
+      "EMAIL_ADDRESS": {
+        "full": 6,
+        "partial": 0,
+        "missed": 0,
+        "total": 6,
+        "full_recall": 1.0
+      },
+      "IP_ADDRESS": {
+        "full": 4,
+        "partial": 0,
+        "missed": 0,
+        "total": 4,
+        "full_recall": 1.0
+      },
+      "ORGANIZATION": {
+        "full": 3,
+        "partial": 0,
+        "missed": 0,
+        "total": 3,
+        "full_recall": 1.0
+      },
+      "PERSON": {
+        "full": 12,
+        "partial": 0,
+        "missed": 0,
+        "total": 12,
+        "full_recall": 1.0
+      },
+      "PHONE_NUMBER": {
+        "full": 8,
+        "partial": 0,
+        "missed": 0,
+        "total": 8,
+        "full_recall": 1.0
+      },
+      "US_SSN": {
+        "full": 2,
+        "partial": 0,
+        "missed": 0,
+        "total": 2,
+        "full_recall": 1.0
+      },
+      "ALL": {
+        "full": 49,
+        "partial": 0,
+        "missed": 0,
+        "total": 49,
+        "full_recall": 1.0
+      }
+    },
+    "false_positives": [
+      [
+        [
+          "PERSON",
+          "Baner"
+        ],
+        1
+      ],
+      [
+        [
+          "PERSON",
+          "Chargeback"
+        ],
+        1
+      ]
+    ],
+    "misses": []
+  },
+  "image": {
+    "pii_boxes": 4,
+    "pii_boxes_redacted": 4,
+    "box_recall": 1.0,
+    "non_pii_boxes": 6,
+    "non_pii_boxes_redacted": 0,
+    "box_precision": 1.0,
+    "boxes": [
+      {
+        "text": "GOVERNMENT OF INDIA",
+        "pii": false,
+        "black_coverage": 0.257
+      },
+      {
+        "text": "Rohan Verma",
+        "pii": true,
+        "black_coverage": 1.0
+      },
+      {
+        "text": "Name:",
+        "pii": false,
+        "black_coverage": 0.236
+      },
+      {
+        "text": "11/08/1994",
+        "pii": true,
+        "black_coverage": 1.0
+      },
+      {
+        "text": "DOB:",
+        "pii": false,
+        "black_coverage": 0.3
+      },
+      {
+        "text": "Gender: Male",
+        "pii": false,
+        "black_coverage": 0.237
+      },
+      {
+        "text": "4821 7730 5129",
+        "pii": true,
+        "black_coverage": 1.0
+      },
+      {
+        "text": "14 Lake View Road, Nashik - 422005",
+        "pii": true,
+        "black_coverage": 1.0
+      },
+      {
+        "text": "Address:",
+        "pii": false,
+        "black_coverage": 0.233
+      },
+      {
+        "text": "Unique Identification Authority of India",
+        "pii": false,
+        "black_coverage": 0.175
+      }
+    ]
+  }
+}

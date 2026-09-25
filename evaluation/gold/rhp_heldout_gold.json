@@ -1,0 +1,2564 @@
+{
+ "description": "HELD-OUT hand-labelled gold spans for Red_Herring_Prospectus.docx, labelled after the rules were frozen and scored once without further changes. Offsets only (no PII text).",
+ "sampling": {
+  "dense": "all non-empty units 3801-4013 (rest of General Information) not in the development set",
+  "random": "50 other unseen non-empty units, random.Random(99).sample"
+ },
+ "units": [
+  {
+   "index": 3801,
+   "group": "dense",
+   "sha1": "b630c361900ca246a0c38b353b39a0b8796a10b7",
+   "spans": []
+  },
+  {
+   "index": 3802,
+   "group": "dense",
+   "sha1": "acd3c309ac96b9ab8701c8776919df43244d7b47",
+   "spans": [
+    [
+     0,
+     5,
+     "ORGANIZATION"
+    ]
+   ]
+  },
+  {
+   "index": 3803,
+   "group": "dense",
+   "sha1": "bd0eb8527e5e47f7601d819319a9a0df9621886b",
+   "spans": []
+  },
+  {
+   "index": 3804,
+   "group": "dense",
+   "sha1": "9d0fe79f4d24b8d06f0177b6b82dbd8ad7d41a5c",
+   "spans": []
+  },
+  {
+   "index": 3805,
+   "group": "dense",
+   "sha1": "8077edd294b5e46263e65a33eddceae6b4124bb2",
+   "spans": []
+  },
+  {
+   "index": 3806,
+   "group": "dense",
+   "sha1": "b630c361900ca246a0c38b353b39a0b8796a10b7",
+   "spans": []
+  },
+  {
+   "index": 3807,
+   "group": "dense",
+   "sha1": "acd3c309ac96b9ab8701c8776919df43244d7b47",
+   "spans": [
+    [
+     0,
+     5,
+     "ORGANIZATION"
+    ]
+   ]
+  },
+  {
+   "index": 3808,
+   "group": "dense",
+   "sha1": "0d5c2ef7f47dfe3d10e2e8f7e3ee957d80c172f3",
+   "spans": []
+  },
+  {
+   "index": 3809,
+   "group": "dense",
+   "sha1": "b61bae7a59b1b3cd3916d2ff8338fa02727c80b5",
+   "spans": [
+    [
+     0,
+     32,
+     "ORGANIZATION"
+    ]
+   ]
+  },
+  {
+   "index": 3810,
+   "group": "dense",
+   "sha1": "42c652a9de01ed995e799f053388c5bbc7f43885",
+   "spans": [
+    [
+     0,
+     51,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3811,
+   "group": "dense",
+   "sha1": "4e6dd7306581339a447d795d3257d43980a17d64",
+   "spans": [
+    [
+     0,
+     48,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3812,
+   "group": "dense",
+   "sha1": "5e6e65e22035d3fd5fadb9c4fbeb3c0380da52ec",
+   "spans": [
+    [
+     0,
+     18,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3813,
+   "group": "dense",
+   "sha1": "5ee8df3ee821b37cf4efa57ff72c0a28371e12bc",
+   "spans": [
+    [
+     11,
+     28,
+     "PHONE_NUMBER"
+    ]
+   ]
+  },
+  {
+   "index": 3814,
+   "group": "dense",
+   "sha1": "d3a15707557cd02bff44b6ec23393131c48b7d97",
+   "spans": [
+    [
+     7,
+     25,
+     "EMAIL_ADDRESS"
+    ],
+    [
+     27,
+     53,
+     "EMAIL_ADDRESS"
+    ],
+    [
+     59,
+     83,
+     "EMAIL_ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3815,
+   "group": "dense",
+   "sha1": "527b1d6d29b2d93f5e9e676d96423bc017469a8b",
+   "spans": [
+    [
+     9,
+     23,
+     "URL"
+    ]
+   ]
+  },
+  {
+   "index": 3816,
+   "group": "dense",
+   "sha1": "16f3c16bfc21cc79bf979d014602922c37036a66",
+   "spans": [
+    [
+     16,
+     31,
+     "PERSON"
+    ]
+   ]
+  },
+  {
+   "index": 3817,
+   "group": "dense",
+   "sha1": "1549e614167e058d3328a634099d9ed2ef24e5e5",
+   "spans": []
+  },
+  {
+   "index": 3818,
+   "group": "dense",
+   "sha1": "4a1ded2fbf3addc3b4b08fd57ebe53c44fa50ad8",
+   "spans": [
+    [
+     0,
+     24,
+     "ORGANIZATION"
+    ],
+    [
+     25,
+     115,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3819,
+   "group": "dense",
+   "sha1": "8bfc2360da60327bad9b7521ce2810118fae3f9f",
+   "spans": [
+    [
+     11,
+     27,
+     "PHONE_NUMBER"
+    ],
+    [
+     35,
+     58,
+     "EMAIL_ADDRESS"
+    ],
+    [
+     68,
+     91,
+     "URL"
+    ]
+   ]
+  },
+  {
+   "index": 3820,
+   "group": "dense",
+   "sha1": "8e20cdcc7f2b00b5ec53079c5bdbd4b2abf8bb2e",
+   "spans": [
+    [
+     27,
+     59,
+     "EMAIL_ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3821,
+   "group": "dense",
+   "sha1": "4a2942139e3358d87dd0ff50b373e016cfcdcdd0",
+   "spans": [
+    [
+     16,
+     30,
+     "PERSON"
+    ],
+    [
+     31,
+     44,
+     "PERSON"
+    ]
+   ]
+  },
+  {
+   "index": 3822,
+   "group": "dense",
+   "sha1": "b03ff491a5da110b2264213a5328ba7b666ea0c2",
+   "spans": []
+  },
+  {
+   "index": 3823,
+   "group": "dense",
+   "sha1": "ea5fbaa1b712fcacc421abda01208f94c025b649",
+   "spans": [
+    [
+     46,
+     54,
+     "ORGANIZATION"
+    ]
+   ]
+  },
+  {
+   "index": 3824,
+   "group": "dense",
+   "sha1": "542f7fa5b605ad25ecfb0feb3631b52a25ed5d9e",
+   "spans": [
+    [
+     0,
+     16,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3825,
+   "group": "dense",
+   "sha1": "d26471a42d8ada4e7d2125c66797ba60f0794f7d",
+   "spans": [
+    [
+     0,
+     25,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3826,
+   "group": "dense",
+   "sha1": "5524c86cc32361ec4ef3115c98e418d2706eba31",
+   "spans": [
+    [
+     0,
+     56,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3827,
+   "group": "dense",
+   "sha1": "5e6e65e22035d3fd5fadb9c4fbeb3c0380da52ec",
+   "spans": [
+    [
+     0,
+     18,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3828,
+   "group": "dense",
+   "sha1": "be4ffbfbdd3810589cf2fcb564906b37d048bc73",
+   "spans": [
+    [
+     7,
+     23,
+     "EMAIL_ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3829,
+   "group": "dense",
+   "sha1": "cbe80f17017c9b4b9be3da8200d8a5731f2cbed4",
+   "spans": [
+    [
+     11,
+     27,
+     "PHONE_NUMBER"
+    ]
+   ]
+  },
+  {
+   "index": 3830,
+   "group": "dense",
+   "sha1": "f8cec4407fc72603aa86c26460ccf2fe626b0526",
+   "spans": []
+  },
+  {
+   "index": 3831,
+   "group": "dense",
+   "sha1": "17523537cfeac8e6193cf42afab121e446d1153b",
+   "spans": [
+    [
+     0,
+     33,
+     "ORGANIZATION"
+    ],
+    [
+     44,
+     77,
+     "ORGANIZATION"
+    ],
+    [
+     79,
+     97,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3832,
+   "group": "dense",
+   "sha1": "8e4786a57179bf665b0017e645c96da857dc55df",
+   "spans": [
+    [
+     0,
+     74,
+     "ADDRESS"
+    ],
+    [
+     86,
+     101,
+     "PHONE_NUMBER"
+    ]
+   ]
+  },
+  {
+   "index": 3833,
+   "group": "dense",
+   "sha1": "f1d3295567e4f0ae3b5b6094d4ec5d1c2011f581",
+   "spans": [
+    [
+     8,
+     45,
+     "EMAIL_ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3834,
+   "group": "dense",
+   "sha1": "0a84a4c9e8f57258afd6cbc58e437ceba16b1916",
+   "spans": [
+    [
+     27,
+     64,
+     "EMAIL_ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3835,
+   "group": "dense",
+   "sha1": "04e1870469dcd559413b04825c70de1e45e8fbdf",
+   "spans": [
+    [
+     9,
+     29,
+     "URL"
+    ],
+    [
+     46,
+     66,
+     "PERSON"
+    ]
+   ]
+  },
+  {
+   "index": 3836,
+   "group": "dense",
+   "sha1": "3ea699cca16a47253eb74ceee4f9892465f13659",
+   "spans": []
+  },
+  {
+   "index": 3837,
+   "group": "dense",
+   "sha1": "5e3915566cd8389f88ca7bc57f13462f80edb76a",
+   "spans": []
+  },
+  {
+   "index": 3838,
+   "group": "dense",
+   "sha1": "2bc0e0dab0398f9ab4fe8973ce5af03301c395a8",
+   "spans": [
+    [
+     44,
+     61,
+     "ORGANIZATION"
+    ]
+   ]
+  },
+  {
+   "index": 3839,
+   "group": "dense",
+   "sha1": "60f854a0e0bbf7c04d281156215686496d8b0a82",
+   "spans": [
+    [
+     0,
+     17,
+     "ORGANIZATION"
+    ],
+    [
+     19,
+     78,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3840,
+   "group": "dense",
+   "sha1": "4ea4fb7e372ba44c26bed7411be44b0f0d23b789",
+   "spans": [
+    [
+     0,
+     89,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3841,
+   "group": "dense",
+   "sha1": "6f5014a265ee770048efdea041bddfba9c4d9577",
+   "spans": [
+    [
+     11,
+     26,
+     "PHONE_NUMBER"
+    ],
+    [
+     28,
+     43,
+     "PHONE_NUMBER"
+    ],
+    [
+     48,
+     63,
+     "PHONE_NUMBER"
+    ]
+   ]
+  },
+  {
+   "index": 3842,
+   "group": "dense",
+   "sha1": "02e306ede0a8f632d869d9aa874090008eb81461",
+   "spans": [
+    [
+     7,
+     36,
+     "EMAIL_ADDRESS"
+    ],
+    [
+     38,
+     64,
+     "EMAIL_ADDRESS"
+    ],
+    [
+     65,
+     88,
+     "EMAIL_ADDRESS"
+    ],
+    [
+     90,
+     118,
+     "EMAIL_ADDRESS"
+    ],
+    [
+     124,
+     149,
+     "EMAIL_ADDRESS"
+    ],
+    [
+     159,
+     175,
+     "URL"
+    ]
+   ]
+  },
+  {
+   "index": 3843,
+   "group": "dense",
+   "sha1": "b3b655cf66216d0e1a088b37b0cf706a7fa3d55a",
+   "spans": [
+    [
+     16,
+     26,
+     "PERSON"
+    ],
+    [
+     28,
+     41,
+     "PERSON"
+    ],
+    [
+     43,
+     54,
+     "PERSON"
+    ],
+    [
+     56,
+     72,
+     "PERSON"
+    ],
+    [
+     74,
+     89,
+     "PERSON"
+    ]
+   ]
+  },
+  {
+   "index": 3844,
+   "group": "dense",
+   "sha1": "41e8faae5d67581f364e0293073dc6dfc27767c3",
+   "spans": []
+  },
+  {
+   "index": 3845,
+   "group": "dense",
+   "sha1": "47c5220e0118e91df0499701dcce76876600a9b1",
+   "spans": []
+  },
+  {
+   "index": 3846,
+   "group": "dense",
+   "sha1": "c359f033bcf987a8b2994a26e64c43f579537352",
+   "spans": []
+  },
+  {
+   "index": 3847,
+   "group": "dense",
+   "sha1": "700acaa4b140b8e07f8ab342e09850999f9fac6a",
+   "spans": [
+    [
+     0,
+     18,
+     "ORGANIZATION"
+    ]
+   ]
+  },
+  {
+   "index": 3848,
+   "group": "dense",
+   "sha1": "f9edfe345ad00b6f133ff770c35fda52b4fde63c",
+   "spans": []
+  },
+  {
+   "index": 3849,
+   "group": "dense",
+   "sha1": "1d02e3df4ed4c2e3a47488609ca9732a937966f0",
+   "spans": [
+    [
+     0,
+     79,
+     "ADDRESS"
+    ],
+    [
+     91,
+     103,
+     "PHONE_NUMBER"
+    ],
+    [
+     111,
+     131,
+     "EMAIL_ADDRESS"
+    ],
+    [
+     141,
+     158,
+     "URL"
+    ],
+    [
+     175,
+     186,
+     "PERSON"
+    ]
+   ]
+  },
+  {
+   "index": 3850,
+   "group": "dense",
+   "sha1": "a948eb86c49bfed7e20efafd522c53678063c4cd",
+   "spans": []
+  },
+  {
+   "index": 3851,
+   "group": "dense",
+   "sha1": "b8e271403078f208d1e43daa3971949c8a07aa06",
+   "spans": []
+  },
+  {
+   "index": 3852,
+   "group": "dense",
+   "sha1": "10f0138d6fdca3daa06ae8a2d02bb646e38a9653",
+   "spans": [
+    [
+     0,
+     17,
+     "ORGANIZATION"
+    ]
+   ]
+  },
+  {
+   "index": 3853,
+   "group": "dense",
+   "sha1": "60f854a0e0bbf7c04d281156215686496d8b0a82",
+   "spans": [
+    [
+     0,
+     17,
+     "ORGANIZATION"
+    ],
+    [
+     19,
+     78,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3854,
+   "group": "dense",
+   "sha1": "4ea4fb7e372ba44c26bed7411be44b0f0d23b789",
+   "spans": [
+    [
+     0,
+     89,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3855,
+   "group": "dense",
+   "sha1": "6f5014a265ee770048efdea041bddfba9c4d9577",
+   "spans": [
+    [
+     11,
+     26,
+     "PHONE_NUMBER"
+    ],
+    [
+     28,
+     43,
+     "PHONE_NUMBER"
+    ],
+    [
+     48,
+     63,
+     "PHONE_NUMBER"
+    ]
+   ]
+  },
+  {
+   "index": 3856,
+   "group": "dense",
+   "sha1": "02e306ede0a8f632d869d9aa874090008eb81461",
+   "spans": [
+    [
+     7,
+     36,
+     "EMAIL_ADDRESS"
+    ],
+    [
+     38,
+     64,
+     "EMAIL_ADDRESS"
+    ],
+    [
+     65,
+     88,
+     "EMAIL_ADDRESS"
+    ],
+    [
+     90,
+     118,
+     "EMAIL_ADDRESS"
+    ],
+    [
+     124,
+     149,
+     "EMAIL_ADDRESS"
+    ],
+    [
+     159,
+     175,
+     "URL"
+    ]
+   ]
+  },
+  {
+   "index": 3857,
+   "group": "dense",
+   "sha1": "b3b655cf66216d0e1a088b37b0cf706a7fa3d55a",
+   "spans": [
+    [
+     16,
+     26,
+     "PERSON"
+    ],
+    [
+     28,
+     41,
+     "PERSON"
+    ],
+    [
+     43,
+     54,
+     "PERSON"
+    ],
+    [
+     56,
+     72,
+     "PERSON"
+    ],
+    [
+     74,
+     89,
+     "PERSON"
+    ]
+   ]
+  },
+  {
+   "index": 3858,
+   "group": "dense",
+   "sha1": "41e8faae5d67581f364e0293073dc6dfc27767c3",
+   "spans": []
+  },
+  {
+   "index": 3859,
+   "group": "dense",
+   "sha1": "47c5220e0118e91df0499701dcce76876600a9b1",
+   "spans": []
+  },
+  {
+   "index": 3860,
+   "group": "dense",
+   "sha1": "a532808a41443b7d8ab31539e2813784571ef051",
+   "spans": []
+  },
+  {
+   "index": 3861,
+   "group": "dense",
+   "sha1": "700acaa4b140b8e07f8ab342e09850999f9fac6a",
+   "spans": [
+    [
+     0,
+     18,
+     "ORGANIZATION"
+    ]
+   ]
+  },
+  {
+   "index": 3862,
+   "group": "dense",
+   "sha1": "f9edfe345ad00b6f133ff770c35fda52b4fde63c",
+   "spans": []
+  },
+  {
+   "index": 3863,
+   "group": "dense",
+   "sha1": "1d02e3df4ed4c2e3a47488609ca9732a937966f0",
+   "spans": [
+    [
+     0,
+     79,
+     "ADDRESS"
+    ],
+    [
+     91,
+     103,
+     "PHONE_NUMBER"
+    ],
+    [
+     111,
+     131,
+     "EMAIL_ADDRESS"
+    ],
+    [
+     141,
+     158,
+     "URL"
+    ],
+    [
+     175,
+     186,
+     "PERSON"
+    ]
+   ]
+  },
+  {
+   "index": 3864,
+   "group": "dense",
+   "sha1": "a948eb86c49bfed7e20efafd522c53678063c4cd",
+   "spans": []
+  },
+  {
+   "index": 3865,
+   "group": "dense",
+   "sha1": "b8e271403078f208d1e43daa3971949c8a07aa06",
+   "spans": []
+  },
+  {
+   "index": 3866,
+   "group": "dense",
+   "sha1": "10f0138d6fdca3daa06ae8a2d02bb646e38a9653",
+   "spans": [
+    [
+     0,
+     17,
+     "ORGANIZATION"
+    ]
+   ]
+  },
+  {
+   "index": 3867,
+   "group": "dense",
+   "sha1": "60f854a0e0bbf7c04d281156215686496d8b0a82",
+   "spans": [
+    [
+     0,
+     17,
+     "ORGANIZATION"
+    ],
+    [
+     19,
+     78,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3868,
+   "group": "dense",
+   "sha1": "4ea4fb7e372ba44c26bed7411be44b0f0d23b789",
+   "spans": [
+    [
+     0,
+     89,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3869,
+   "group": "dense",
+   "sha1": "6f5014a265ee770048efdea041bddfba9c4d9577",
+   "spans": [
+    [
+     11,
+     26,
+     "PHONE_NUMBER"
+    ],
+    [
+     28,
+     43,
+     "PHONE_NUMBER"
+    ],
+    [
+     48,
+     63,
+     "PHONE_NUMBER"
+    ]
+   ]
+  },
+  {
+   "index": 3870,
+   "group": "dense",
+   "sha1": "02e306ede0a8f632d869d9aa874090008eb81461",
+   "spans": [
+    [
+     7,
+     36,
+     "EMAIL_ADDRESS"
+    ],
+    [
+     38,
+     64,
+     "EMAIL_ADDRESS"
+    ],
+    [
+     65,
+     88,
+     "EMAIL_ADDRESS"
+    ],
+    [
+     90,
+     118,
+     "EMAIL_ADDRESS"
+    ],
+    [
+     124,
+     149,
+     "EMAIL_ADDRESS"
+    ],
+    [
+     159,
+     175,
+     "URL"
+    ]
+   ]
+  },
+  {
+   "index": 3871,
+   "group": "dense",
+   "sha1": "b3b655cf66216d0e1a088b37b0cf706a7fa3d55a",
+   "spans": [
+    [
+     16,
+     26,
+     "PERSON"
+    ],
+    [
+     28,
+     41,
+     "PERSON"
+    ],
+    [
+     43,
+     54,
+     "PERSON"
+    ],
+    [
+     56,
+     72,
+     "PERSON"
+    ],
+    [
+     74,
+     89,
+     "PERSON"
+    ]
+   ]
+  },
+  {
+   "index": 3872,
+   "group": "dense",
+   "sha1": "41e8faae5d67581f364e0293073dc6dfc27767c3",
+   "spans": []
+  },
+  {
+   "index": 3873,
+   "group": "dense",
+   "sha1": "47c5220e0118e91df0499701dcce76876600a9b1",
+   "spans": []
+  },
+  {
+   "index": 3874,
+   "group": "dense",
+   "sha1": "36f0ae1e265e66beb08458c5087b282ceeca0f6f",
+   "spans": []
+  },
+  {
+   "index": 3875,
+   "group": "dense",
+   "sha1": "ba07b1d9884602a19bfe7efd7b5b5e3ab1c40b94",
+   "spans": []
+  },
+  {
+   "index": 3876,
+   "group": "dense",
+   "sha1": "612372f1efbbbbba38f121e6a7be7faa9b38b5fa",
+   "spans": []
+  },
+  {
+   "index": 3877,
+   "group": "dense",
+   "sha1": "26135b8757b868e5538dc65aa14d63acd861692a",
+   "spans": []
+  },
+  {
+   "index": 3878,
+   "group": "dense",
+   "sha1": "08c9990352488cec2b11691812e9f8cb07a7e05e",
+   "spans": []
+  },
+  {
+   "index": 3879,
+   "group": "dense",
+   "sha1": "352cfbddc730dca94ab82d7451adfaa0db9ae7f4",
+   "spans": []
+  },
+  {
+   "index": 3880,
+   "group": "dense",
+   "sha1": "f81e1a7618187d78222c92dd322ba3994a963cce",
+   "spans": []
+  },
+  {
+   "index": 3881,
+   "group": "dense",
+   "sha1": "421817d425c7bd798fe188319e25d485e84fa23d",
+   "spans": []
+  },
+  {
+   "index": 3882,
+   "group": "dense",
+   "sha1": "9294856597b8fdfae25d455a7648524c99f7aeac",
+   "spans": []
+  },
+  {
+   "index": 3883,
+   "group": "dense",
+   "sha1": "2f72f6928613ba0d87a52e6cab3f699ddd7fae79",
+   "spans": []
+  },
+  {
+   "index": 3884,
+   "group": "dense",
+   "sha1": "258b8773dc1d52db5d06aebd871943ebb095e72b",
+   "spans": []
+  },
+  {
+   "index": 3885,
+   "group": "dense",
+   "sha1": "9b31c285282b118a0e1c399e7c9e3959ddedb07a",
+   "spans": []
+  },
+  {
+   "index": 3886,
+   "group": "dense",
+   "sha1": "09c1c99fcf9ad171f598da2ae1bed96cf83fd4c0",
+   "spans": []
+  },
+  {
+   "index": 3887,
+   "group": "dense",
+   "sha1": "551cfb69a4b6b7e118fc63fe9641050d45e481e2",
+   "spans": []
+  },
+  {
+   "index": 3888,
+   "group": "dense",
+   "sha1": "88e59a0ab62715b46bfd4c80034eb802a503a68b",
+   "spans": []
+  },
+  {
+   "index": 3889,
+   "group": "dense",
+   "sha1": "937c73d8fb46ea940d8e47235423d5addafa122f",
+   "spans": [
+    [
+     98,
+     119,
+     "ORGANIZATION"
+    ]
+   ]
+  },
+  {
+   "index": 3890,
+   "group": "dense",
+   "sha1": "139f026c7476cc5ad0817e2911bfbf5947fffb18",
+   "spans": [
+    [
+     70,
+     94,
+     "PERSON"
+    ]
+   ]
+  },
+  {
+   "index": 3892,
+   "group": "dense",
+   "sha1": "0948d6b850d38997e08d16502352710b81a62d57",
+   "spans": []
+  },
+  {
+   "index": 3895,
+   "group": "dense",
+   "sha1": "891b995f3be969e0c2f62bc94aff9f0952bcd47d",
+   "spans": [
+    [
+     0,
+     49,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3896,
+   "group": "dense",
+   "sha1": "f0b68afe971a3793a0bf3980bbba69171a0bee34",
+   "spans": [
+    [
+     0,
+     14,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3897,
+   "group": "dense",
+   "sha1": "5e6e65e22035d3fd5fadb9c4fbeb3c0380da52ec",
+   "spans": [
+    [
+     0,
+     18,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3898,
+   "group": "dense",
+   "sha1": "5e2fca7f5f2e80e8c084f9942801dd441342f34c",
+   "spans": [
+    [
+     8,
+     39,
+     "EMAIL_ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3899,
+   "group": "dense",
+   "sha1": "5d29f807243a3eb0accbd1326d20823d02a643f9",
+   "spans": [
+    [
+     11,
+     30,
+     "PHONE_NUMBER"
+    ]
+   ]
+  },
+  {
+   "index": 3900,
+   "group": "dense",
+   "sha1": "554d9de5db39fb22100541490cac2a41d9990cc0",
+   "spans": []
+  },
+  {
+   "index": 3901,
+   "group": "dense",
+   "sha1": "8534408d5205a7cab52745d65806ff84f7bc7c13",
+   "spans": []
+  },
+  {
+   "index": 3902,
+   "group": "dense",
+   "sha1": "efe2b8d1ee3cc3955625f714420a0d94678c29c2",
+   "spans": []
+  },
+  {
+   "index": 3903,
+   "group": "dense",
+   "sha1": "abe1b6a7215e939773830f65a04428baeee988dc",
+   "spans": []
+  },
+  {
+   "index": 3904,
+   "group": "dense",
+   "sha1": "d7b50670a65e29be2827c55db62c2723282faa17",
+   "spans": []
+  },
+  {
+   "index": 3905,
+   "group": "dense",
+   "sha1": "0aab014dd8f1a6aba5f59dbabf662384028080cc",
+   "spans": []
+  },
+  {
+   "index": 3906,
+   "group": "dense",
+   "sha1": "f812e85c0e3264928352c5c00a20f766733977b2",
+   "spans": []
+  },
+  {
+   "index": 3907,
+   "group": "dense",
+   "sha1": "8aa5c02c5dc1c43d025819cfe519151063836f49",
+   "spans": [
+    [
+     0,
+     21,
+     "ORGANIZATION"
+    ]
+   ]
+  },
+  {
+   "index": 3908,
+   "group": "dense",
+   "sha1": "6b8f494eaf91b4b48e0909d862fc2432b629f7dd",
+   "spans": [
+    [
+     0,
+     22,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3909,
+   "group": "dense",
+   "sha1": "54fc37932035757964b254a6e4d01f5caa469651",
+   "spans": [
+    [
+     0,
+     68,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3910,
+   "group": "dense",
+   "sha1": "5e6e65e22035d3fd5fadb9c4fbeb3c0380da52ec",
+   "spans": [
+    [
+     0,
+     18,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3912,
+   "group": "dense",
+   "sha1": "677cd5ad37d9691fa12f8cd37369d3a173a6ca4c",
+   "spans": [
+    [
+     11,
+     28,
+     "PHONE_NUMBER"
+    ]
+   ]
+  },
+  {
+   "index": 3913,
+   "group": "dense",
+   "sha1": "554d9de5db39fb22100541490cac2a41d9990cc0",
+   "spans": []
+  },
+  {
+   "index": 3914,
+   "group": "dense",
+   "sha1": "8534408d5205a7cab52745d65806ff84f7bc7c13",
+   "spans": []
+  },
+  {
+   "index": 3915,
+   "group": "dense",
+   "sha1": "8b0fb96293c1af4e794c8e68b7c4c10f6da825e3",
+   "spans": []
+  },
+  {
+   "index": 3916,
+   "group": "dense",
+   "sha1": "66f455c968928189d99e4aeeb856c71505358fe3",
+   "spans": []
+  },
+  {
+   "index": 3917,
+   "group": "dense",
+   "sha1": "ba034655783be11099d5efdc56703642a1bd5f3b",
+   "spans": [
+    [
+     0,
+     24,
+     "ORGANIZATION"
+    ],
+    [
+     25,
+     99,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3918,
+   "group": "dense",
+   "sha1": "b24de7167824eeba1175da4645be6740804f0b40",
+   "spans": [
+    [
+     8,
+     28,
+     "EMAIL_ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3919,
+   "group": "dense",
+   "sha1": "01a7278f190562a7afdfe053c45afc52e50a3a57",
+   "spans": []
+  },
+  {
+   "index": 3920,
+   "group": "dense",
+   "sha1": "e1b481a1f254d47837bd727a6f725c1aab800080",
+   "spans": []
+  },
+  {
+   "index": 3921,
+   "group": "dense",
+   "sha1": "8b0fb96293c1af4e794c8e68b7c4c10f6da825e3",
+   "spans": []
+  },
+  {
+   "index": 3922,
+   "group": "dense",
+   "sha1": "55f16be26ff2c0ba40d70e2b33f9c552a8ac320b",
+   "spans": []
+  },
+  {
+   "index": 3923,
+   "group": "dense",
+   "sha1": "d34d48a6a899e2788fbf418790cdbaa22f72363f",
+   "spans": []
+  },
+  {
+   "index": 3924,
+   "group": "dense",
+   "sha1": "8a6018c07b74f013735599cf380bdee389716532",
+   "spans": [
+    [
+     0,
+     13,
+     "ORGANIZATION"
+    ]
+   ]
+  },
+  {
+   "index": 3925,
+   "group": "dense",
+   "sha1": "bf0c7da1f544fe9f2c97e27c4b070a3eb41f0dc7",
+   "spans": [
+    [
+     0,
+     37,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3926,
+   "group": "dense",
+   "sha1": "5d99ca7971e499312e93f8313ff2c235ab57e3da",
+   "spans": [
+    [
+     0,
+     48,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3927,
+   "group": "dense",
+   "sha1": "472cd75553a47a2476b938aebc0975c676b26f48",
+   "spans": [
+    [
+     11,
+     27,
+     "PHONE_NUMBER"
+    ]
+   ]
+  },
+  {
+   "index": 3928,
+   "group": "dense",
+   "sha1": "4fc90c765d49640174b09b92bb23277e3f674114",
+   "spans": [
+    [
+     16,
+     29,
+     "PERSON"
+    ]
+   ]
+  },
+  {
+   "index": 3929,
+   "group": "dense",
+   "sha1": "4e5aed8f4fc623c6cc27877467ed35a1b5b9da65",
+   "spans": [
+    [
+     9,
+     46,
+     "URL"
+    ]
+   ]
+  },
+  {
+   "index": 3930,
+   "group": "dense",
+   "sha1": "54f1fdcc299b535f839a1a9961684bab8ca1fab9",
+   "spans": [
+    [
+     7,
+     29,
+     "EMAIL_ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3932,
+   "group": "dense",
+   "sha1": "2dced49047d9db145490828e2f74ecf19a3ac928",
+   "spans": [
+    [
+     0,
+     27,
+     "ORGANIZATION"
+    ]
+   ]
+  },
+  {
+   "index": 3933,
+   "group": "dense",
+   "sha1": "ae5b1ca667dfd00faa7f76cca8c187da08f840c3",
+   "spans": [
+    [
+     0,
+     23,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3934,
+   "group": "dense",
+   "sha1": "ba206ca10cfcd1caed73aa40f938cbbeb4e9f158",
+   "spans": [
+    [
+     0,
+     32,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3935,
+   "group": "dense",
+   "sha1": "3ce7318f66ab4ab987001c21f16377d9fceb53e4",
+   "spans": [
+    [
+     0,
+     84,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3936,
+   "group": "dense",
+   "sha1": "8a85ce21b6bbc2d4692dc96654f8e2df3b21bd2e",
+   "spans": [
+    [
+     11,
+     27,
+     "PHONE_NUMBER"
+    ],
+    [
+     44,
+     56,
+     "PERSON"
+    ],
+    [
+     66,
+     86,
+     "URL"
+    ],
+    [
+     95,
+     115,
+     "EMAIL_ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3937,
+   "group": "dense",
+   "sha1": "e0a5df08aa032f021d2d1858ff6944da5daf9f9e",
+   "spans": [
+    [
+     0,
+     21,
+     "ORGANIZATION"
+    ],
+    [
+     22,
+     57,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3938,
+   "group": "dense",
+   "sha1": "fe2fde3dd4a85fd22c2c5c2873bcf08fe5220ce4",
+   "spans": [
+    [
+     0,
+     14,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3939,
+   "group": "dense",
+   "sha1": "5e6e65e22035d3fd5fadb9c4fbeb3c0380da52ec",
+   "spans": [
+    [
+     0,
+     18,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3940,
+   "group": "dense",
+   "sha1": "3633bf1435144d8bf38c517710fed39878a2b5fe",
+   "spans": [
+    [
+     11,
+     26,
+     "PHONE_NUMBER"
+    ],
+    [
+     43,
+     57,
+     "PERSON"
+    ],
+    [
+     67,
+     83,
+     "URL"
+    ],
+    [
+     92,
+     119,
+     "EMAIL_ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3942,
+   "group": "dense",
+   "sha1": "700acaa4b140b8e07f8ab342e09850999f9fac6a",
+   "spans": [
+    [
+     0,
+     18,
+     "ORGANIZATION"
+    ]
+   ]
+  },
+  {
+   "index": 3943,
+   "group": "dense",
+   "sha1": "d9394602b47de668ce6140f7303b6c485eb70c52",
+   "spans": [
+    [
+     0,
+     10,
+     "ORGANIZATION"
+    ],
+    [
+     12,
+     83,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3944,
+   "group": "dense",
+   "sha1": "ffecae3287217ec4c6d5d0118bd365331e9a29ae",
+   "spans": [
+    [
+     0,
+     51,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3945,
+   "group": "dense",
+   "sha1": "4b5d7c3447c4408796f080fb0b3bad4d1374f123",
+   "spans": [
+    [
+     11,
+     26,
+     "PHONE_NUMBER"
+    ],
+    [
+     43,
+     55,
+     "PERSON"
+    ],
+    [
+     65,
+     82,
+     "URL"
+    ],
+    [
+     90,
+     116,
+     "EMAIL_ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3946,
+   "group": "dense",
+   "sha1": "10f0138d6fdca3daa06ae8a2d02bb646e38a9653",
+   "spans": [
+    [
+     0,
+     17,
+     "ORGANIZATION"
+    ]
+   ]
+  },
+  {
+   "index": 3947,
+   "group": "dense",
+   "sha1": "b7df5c4a0a2625032c9d7d6db593f295ee549cda",
+   "spans": [
+    [
+     0,
+     44,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3948,
+   "group": "dense",
+   "sha1": "fe2fde3dd4a85fd22c2c5c2873bcf08fe5220ce4",
+   "spans": [
+    [
+     0,
+     14,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3949,
+   "group": "dense",
+   "sha1": "5e6e65e22035d3fd5fadb9c4fbeb3c0380da52ec",
+   "spans": [
+    [
+     0,
+     18,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3950,
+   "group": "dense",
+   "sha1": "b6ab1048633a72e761d5f2d8ec45d9a32ed88b5f",
+   "spans": [
+    [
+     11,
+     27,
+     "PHONE_NUMBER"
+    ],
+    [
+     44,
+     58,
+     "PERSON"
+    ],
+    [
+     68,
+     84,
+     "URL"
+    ]
+   ]
+  },
+  {
+   "index": 3951,
+   "group": "dense",
+   "sha1": "5806d9d445c66465edc7ef22a58e7f9e1b979922",
+   "spans": [
+    [
+     7,
+     34,
+     "EMAIL_ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3953,
+   "group": "dense",
+   "sha1": "9c5529fc1244fdfd65f21336e300b1c133b8b985",
+   "spans": [
+    [
+     0,
+     19,
+     "ORGANIZATION"
+    ]
+   ]
+  },
+  {
+   "index": 3954,
+   "group": "dense",
+   "sha1": "34dde3e6de96200b86e284ca109e12cb25d6f01d",
+   "spans": [
+    [
+     0,
+     42,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3955,
+   "group": "dense",
+   "sha1": "1718868e6a58ad54c36493c37a8115118459a0f6",
+   "spans": [
+    [
+     0,
+     14,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3956,
+   "group": "dense",
+   "sha1": "5e6e65e22035d3fd5fadb9c4fbeb3c0380da52ec",
+   "spans": [
+    [
+     0,
+     18,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3957,
+   "group": "dense",
+   "sha1": "0bf391126412d505c6566579acfe001bc57efc10",
+   "spans": [
+    [
+     11,
+     27,
+     "PHONE_NUMBER"
+    ],
+    [
+     44,
+     58,
+     "PERSON"
+    ],
+    [
+     68,
+     81,
+     "URL"
+    ]
+   ]
+  },
+  {
+   "index": 3958,
+   "group": "dense",
+   "sha1": "0c52140150de82fcce4f1bfe7c8068ae046dfc09",
+   "spans": [
+    [
+     7,
+     28,
+     "EMAIL_ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3959,
+   "group": "dense",
+   "sha1": "5f5cca9ea641cfab02b3cae2c26451edc7dfaf0b",
+   "spans": [
+    [
+     4,
+     24,
+     "ORGANIZATION"
+    ],
+    [
+     25,
+     125,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3960,
+   "group": "dense",
+   "sha1": "85db2bbf5efd0e2a002914316e8a1a078aa864be",
+   "spans": [
+    [
+     11,
+     27,
+     "PHONE_NUMBER"
+    ]
+   ]
+  },
+  {
+   "index": 3961,
+   "group": "dense",
+   "sha1": "705621be60852fd8be60ec611ed023956d7e1b96",
+   "spans": [
+    [
+     16,
+     37,
+     "PERSON"
+    ]
+   ]
+  },
+  {
+   "index": 3962,
+   "group": "dense",
+   "sha1": "80dfe40ea6c866c7ca025b136dd5daba637fe13b",
+   "spans": [
+    [
+     9,
+     30,
+     "URL"
+    ]
+   ]
+  },
+  {
+   "index": 3963,
+   "group": "dense",
+   "sha1": "64523055ab89b36c0e14acbfc9796589f20ecd10",
+   "spans": [
+    [
+     7,
+     33,
+     "EMAIL_ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3965,
+   "group": "dense",
+   "sha1": "709bf86c539b555cb475120b47de1195ea0362d4",
+   "spans": [
+    [
+     0,
+     21,
+     "ORGANIZATION"
+    ]
+   ]
+  },
+  {
+   "index": 3966,
+   "group": "dense",
+   "sha1": "0c728424765ceeed78e58db8253413abe1a5a29e",
+   "spans": [
+    [
+     0,
+     11,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3967,
+   "group": "dense",
+   "sha1": "67670b3ddbbf9dda2202363b447744b27e2661a6",
+   "spans": [
+    [
+     0,
+     52,
+     "ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3968,
+   "group": "dense",
+   "sha1": "03d554d76f7ed61c943c5fe9b57059d9e99b482a",
+   "spans": [
+    [
+     11,
+     27,
+     "PHONE_NUMBER"
+    ],
+    [
+     44,
+     54,
+     "PERSON"
+    ],
+    [
+     64,
+     84,
+     "URL"
+    ],
+    [
+     92,
+     118,
+     "EMAIL_ADDRESS"
+    ]
+   ]
+  },
+  {
+   "index": 3969,
+   "group": "dense",
+   "sha1": "c8382888ead389d02c9c31715b622c2604934bb3",
+   "spans": []
+  },
+  {
+   "index": 3970,
+   "group": "dense",
+   "sha1": "b3d26e014e6883d18c70dd07414bd4c8fa32f71f",
+   "spans": []
+  },
+  {
+   "index": 3971,
+   "group": "dense",
+   "sha1": "6ff153c20c304b58fe6e5c4bd961f5af399c84a5",
+   "spans": []
+  },
+  {
+   "index": 3972,
+   "group": "dense",
+   "sha1": "c89e3a7439d862611c9329ada49e44103b3b96b1",
+   "spans": []
+  },
+  {
+   "index": 3973,
+   "group": "dense",
+   "sha1": "e0683b7f42f0e1ca1387d407f1e3ca2cab879e15",
+   "spans": []
+  },
+  {
+   "index": 3974,
+   "group": "dense",
+   "sha1": "c90be4ce16dcd1d33f586be2cf3c376851c5a72a",
+   "spans": [
+    [
+     137,
+     157,
+     "ORGANIZATION"
+    ]
+   ]
+  },
+  {
+   "index": 3975,
+   "group": "dense",
+   "sha1": "7e9bad2c3d1eec55fc97d6404b7720adf45df755",
+   "spans": []
+  },
+  {
+   "index": 3976,
+   "group": "dense",
+   "sha1": "e7b9bdade3849ba3f169cf88eebec24bd2c51164",
+   "spans": []
+  },
+  {
+   "index": 3977,
+   "group": "dense",
+   "sha1": "c12aa4f45decfa92211657faf9e9d63ccc36535d",
+   "spans": []
+  },
+  {
+   "index": 3979,
+   "group": "dense",
+   "sha1": "1fe38dc351dbef27d62e25de3d55255f1ae44e6d",
+   "spans": []
+  },
+  {
+   "index": 3980,
+   "group": "dense",
+   "sha1": "36145e1c52a6b29e1b90d38f1652d7e39088b811",
+   "spans": []
+  },
+  {
+   "index": 3981,
+   "group": "dense",
+   "sha1": "76c553c2c7844c7079550ccc30707824a047028e",
+   "spans": []
+  },
+  {
+   "index": 3982,
+   "group": "dense",
+   "sha1": "2c7738ce1f3345828606d8418cdf0d44bdbfb828",
+   "spans": []
+  },
+  {
+   "index": 3983,
+   "group": "dense",
+   "sha1": "3b65eafca6559ef85f9d47f7c0802ff502778eeb",
+   "spans": []
+  },
+  {
+   "index": 3984,
+   "group": "dense",
+   "sha1": "a7f7ebfe337ad66665ff91951abeaf59f4bc8224",
+   "spans": []
+  },
+  {
+   "index": 3985,
+   "group": "dense",
+   "sha1": "3574e00a89b019918fae117cdf3c549e64724f0f",
+   "spans": []
+  },
+  {
+   "index": 3986,
+   "group": "dense",
+   "sha1": "167fa795f7e11a5179654575a50ecd4bcb34c88d",
+   "spans": []
+  },
+  {
+   "index": 3987,
+   "group": "dense",
+   "sha1": "ae8b9e780ff200f208f4e3634549867d03141f21",
+   "spans": []
+  },
+  {
+   "index": 3988,
+   "group": "dense",
+   "sha1": "494fb021e6b57de37400f83ad75ff0a64be26ed2",
+   "spans": []
+  },
+  {
+   "index": 3989,
+   "group": "dense",
+   "sha1": "f2660d7ea5f5d5b6811a8f7b811d7b2177d646f6",
+   "spans": []
+  },
+  {
+   "index": 3990,
+   "group": "dense",
+   "sha1": "b4eba7c1f648aafaa7fae55801bbd25981931911",
+   "spans": []
+  },
+  {
+   "index": 3991,
+   "group": "dense",
+   "sha1": "b207e8325909864c0d0e478ebeca81b152cbf05c",
+   "spans": []
+  },
+  {
+   "index": 3992,
+   "group": "dense",
+   "sha1": "eb7c96d0cfef1b232befe90b30ed8ded9df28b01",
+   "spans": []
+  },
+  {
+   "index": 3993,
+   "group": "dense",
+   "sha1": "c2dcfa69333814cbc9367b4e2815db30d197ada6",
+   "spans": []
+  },
+  {
+   "index": 3994,
+   "group": "dense",
+   "sha1": "5b208c417bd1eacfedf638fe88fc8c3e8ad3336e",
+   "spans": []
+  },
+  {
+   "index": 3995,
+   "group": "dense",
+   "sha1": "e8b5cdb5fbb1c7edceb057a3526bf547408231a7",
+   "spans": []
+  },
+  {
+   "index": 3996,
+   "group": "dense",
+   "sha1": "ad2f6a7a90aa703dbf0b528d5c3e1b8b3f6c53e5",
+   "spans": []
+  },
+  {
+   "index": 3997,
+   "group": "dense",
+   "sha1": "aee027876fe5690d3b28bcb73f867d95bf599162",
+   "spans": []
+  },
+  {
+   "index": 3998,
+   "group": "dense",
+   "sha1": "913df624582f955a67dd4bea1388c8d82b6fe4b2",
+   "spans": []
+  },
+  {
+   "index": 3999,
+   "group": "dense",
+   "sha1": "90b786415d44d7624003c1643cdcef419ad9e2e4",
+   "spans": []
+  },
+  {
+   "index": 4000,
+   "group": "dense",
+   "sha1": "b5cb8c1e9d3a10dc0286c955f656bf08f529a888",
+   "spans": []
+  },
+  {
+   "index": 4001,
+   "group": "dense",
+   "sha1": "a405677e50c1ad546a581d30a57ac0535cd079a5",
+   "spans": []
+  },
+  {
+   "index": 4002,
+   "group": "dense",
+   "sha1": "b65fc700d1e801da3c827ac6a125bf48370b9908",
+   "spans": []
+  },
+  {
+   "index": 4003,
+   "group": "dense",
+   "sha1": "b918fd1b4927992543288f5cf26d442861a58fa6",
+   "spans": []
+  },
+  {
+   "index": 4004,
+   "group": "dense",
+   "sha1": "b08ec180a0701c28aad273db23fb4c6082be666a",
+   "spans": []
+  },
+  {
+   "index": 4005,
+   "group": "dense",
+   "sha1": "d569f27588bdcaab87185d1eb2e3d9a88e97af7f",
+   "spans": []
+  },
+  {
+   "index": 4006,
+   "group": "dense",
+   "sha1": "d569f27588bdcaab87185d1eb2e3d9a88e97af7f",
+   "spans": []
+  },
+  {
+   "index": 4007,
+   "group": "dense",
+   "sha1": "d569f27588bdcaab87185d1eb2e3d9a88e97af7f",
+   "spans": []
+  },
+  {
+   "index": 4008,
+   "group": "dense",
+   "sha1": "d569f27588bdcaab87185d1eb2e3d9a88e97af7f",
+   "spans": []
+  },
+  {
+   "index": 4009,
+   "group": "dense",
+   "sha1": "d569f27588bdcaab87185d1eb2e3d9a88e97af7f",
+   "spans": []
+  },
+  {
+   "index": 4010,
+   "group": "dense",
+   "sha1": "d569f27588bdcaab87185d1eb2e3d9a88e97af7f",
+   "spans": []
+  },
+  {
+   "index": 4011,
+   "group": "dense",
+   "sha1": "601b94ac0a4704c842612e1de950e775c63504c1",
+   "spans": []
+  },
+  {
+   "index": 4012,
+   "group": "dense",
+   "sha1": "52526191d39a19f33761261befbed3b5d72f8e23",
+   "spans": []
+  },
+  {
+   "index": 4013,
+   "group": "dense",
+   "sha1": "0cfbcee4eb7414270b0b018d51a8d47d6093064c",
+   "spans": []
+  },
+  {
+   "index": 508,
+   "group": "random",
+   "sha1": "a8b6a9d0e272779a96ee3863b498cd705934e373",
+   "spans": [
+    [
+     218,
+     239,
+     "PERSON"
+    ],
+    [
+     329,
+     348,
+     "PERSON"
+    ],
+    [
+     436,
+     455,
+     "PERSON"
+    ],
+    [
+     546,
+     564,
+     "PERSON"
+    ]
+   ]
+  },
+  {
+   "index": 523,
+   "group": "random",
+   "sha1": "99f0b004613ad8716ffa886cf2e1f9a09170b030",
+   "spans": []
+  },
+  {
+   "index": 528,
+   "group": "random",
+   "sha1": "967b181776ea1310dfb3b492ef5c3839b284a23d",
+   "spans": []
+  },
+  {
+   "index": 536,
+   "group": "random",
+   "sha1": "504544be280c3ed13397b6e935964a65c882bd4a",
+   "spans": []
+  },
+  {
+   "index": 715,
+   "group": "random",
+   "sha1": "c53041952a9ee280ed686efcf223052688151903",
+   "spans": []
+  },
+  {
+   "index": 795,
+   "group": "random",
+   "sha1": "1867fec0ff30bf15c1e7027f71161808364d779e",
+   "spans": []
+  },
+  {
+   "index": 904,
+   "group": "random",
+   "sha1": "770900875d486a37f319bedfbc7572fdc9641d58",
+   "spans": []
+  },
+  {
+   "index": 905,
+   "group": "random",
+   "sha1": "5daa08d8d96486cb7c6d55d2551bc9831f675715",
+   "spans": []
+  },
+  {
+   "index": 992,
+   "group": "random",
+   "sha1": "1e4d2a2411bcd2ee6dc97f91f94c5ce2784dd70b",
+   "spans": []
+  },
+  {
+   "index": 994,
+   "group": "random",
+   "sha1": "3267aa44c9bb2ebe22a2ae6aff8a33385175b90d",
+   "spans": []
+  },
+  {
+   "index": 1049,
+   "group": "random",
+   "sha1": "025a9f1293a29be58de16e9247dae0ae08cf01ac",
+   "spans": []
+  },
+  {
+   "index": 1067,
+   "group": "random",
+   "sha1": "bfca0a261f5d32072304710de6a8abfc06d28663",
+   "spans": []
+  },
+  {
+   "index": 1125,
+   "group": "random",
+   "sha1": "dd2f5b0b1cf5b5f3ebe74613037febc80f167d36",
+   "spans": []
+  },
+  {
+   "index": 1200,
+   "group": "random",
+   "sha1": "d569f27588bdcaab87185d1eb2e3d9a88e97af7f",
+   "spans": []
+  },
+  {
+   "index": 1211,
+   "group": "random",
+   "sha1": "ceed5fb2e0d57338397ef698e3f21ba1af0e31f6",
+   "spans": []
+  },
+  {
+   "index": 1482,
+   "group": "random",
+   "sha1": "21eaf8f658e20a22508a32e1318e24cedeb25b89",
+   "spans": []
+  },
+  {
+   "index": 1578,
+   "group": "random",
+   "sha1": "4b0de7c1e7d799b8921f9dc747c1c3845ef6a322",
+   "spans": []
+  },
+  {
+   "index": 1725,
+   "group": "random",
+   "sha1": "3c0e66c91333476d18a121fcbb062fac19a87c9e",
+   "spans": []
+  },
+  {
+   "index": 1753,
+   "group": "random",
+   "sha1": "ed87a5df82689935039494385f209b188efa6bc6",
+   "spans": []
+  },
+  {
+   "index": 1763,
+   "group": "random",
+   "sha1": "49bd5037e732acf9d4ddf739f54045ce3aa85702",
+   "spans": []
+  },
+  {
+   "index": 1784,
+   "group": "random",
+   "sha1": "69527126a90b331ca803eefb8c9e3416cec0452a",
+   "spans": []
+  },
+  {
+   "index": 1846,
+   "group": "random",
+   "sha1": "22cf82b68b95049bffb91128349ccc312a460b10",
+   "spans": []
+  },
+  {
+   "index": 1851,
+   "group": "random",
+   "sha1": "b1d5781111d84f7b3fe45a0852e59758cd7a87e5",
+   "spans": []
+  },
+  {
+   "index": 1929,
+   "group": "random",
+   "sha1": "7b91405199e74b0d4e04d0d6b4bd2b56bc62ab0c",
+   "spans": []
+  },
+  {
+   "index": 2095,
+   "group": "random",
+   "sha1": "77a1edc4262c3c7b20dee45a3d427d53c5c61fd7",
+   "spans": []
+  },
+  {
+   "index": 2126,
+   "group": "random",
+   "sha1": "a5b10c1d6cd5ba059eb7a86910012dd81def3dc8",
+   "spans": []
+  },
+  {
+   "index": 2210,
+   "group": "random",
+   "sha1": "d77124894224aa3750f9a523491b4acad18f7aaa",
+   "spans": []
+  },
+  {
+   "index": 2403,
+   "group": "random",
+   "sha1": "3ac6de6ff9a7e9188f159a271b97e7a80b1afb31",
+   "spans": []
+  },
+  {
+   "index": 2412,
+   "group": "random",
+   "sha1": "f9282c7876cfd459c265eb813fc694187c109d58",
+   "spans": []
+  },
+  {
+   "index": 2445,
+   "group": "random",
+   "sha1": "d43fc13cb8636b1d6d8c05c3037bada50d12158f",
+   "spans": []
+  },
+  {
+   "index": 2563,
+   "group": "random",
+   "sha1": "e14eca38e1d9ff991f1ebf154f08cca3506823a5",
+   "spans": []
+  },
+  {
+   "index": 2651,
+   "group": "random",
+   "sha1": "22c5b734740063dcb97f6e7e5b81d072d4204687",
+   "spans": []
+  },
+  {
+   "index": 2696,
+   "group": "random",
+   "sha1": "5cc3eaeedbe3ca2f310cfa3181421f3e458e8530",
+   "spans": []
+  },
+  {
+   "index": 2753,
+   "group": "random",
+   "sha1": "77a1edc4262c3c7b20dee45a3d427d53c5c61fd7",
+   "spans": []
+  },
+  {
+   "index": 2798,
+   "group": "random",
+   "sha1": "99922d32d0393ff6eea0012a0caa4968cc015615",
+   "spans": [
+    [
+     34,
+     46,
+     "PERSON"
+    ],
+    [
+     52,
+     70,
+     "PERSON"
+    ],
+    [
+     75,
+     84,
+     "PERSON"
+    ]
+   ]
+  },
+  {
+   "index": 2950,
+   "group": "random",
+   "sha1": "ed2c92fa5677c4dab78586358b4984b81e3f603c",
+   "spans": []
+  },
+  {
+   "index": 3020,
+   "group": "random",
+   "sha1": "e471562e1cda7585754b73b273d271b0b236d242",
+   "spans": []
+  },
+  {
+   "index": 3040,
+   "group": "random",
+   "sha1": "658720fd8ec8999620db35146ae156d5f253ae7c",
+   "spans": []
+  },
+  {
+   "index": 3048,
+   "group": "random",
+   "sha1": "6d8f3fd9ae9bde80b5939317c5b21db9060ba192",
+   "spans": []
+  },
+  {
+   "index": 3117,
+   "group": "random",
+   "sha1": "6b1653ce164c2a6e387ce08279f372e3b5876cc8",
+   "spans": []
+  },
+  {
+   "index": 3188,
+   "group": "random",
+   "sha1": "cf8c88c7c18e1fad48a7f91fd483677b52a20a83",
+   "spans": []
+  },
+  {
+   "index": 3213,
+   "group": "random",
+   "sha1": "9ba26e2adc0afa273575707cb431da2c4c0f71ec",
+   "spans": []
+  },
+  {
+   "index": 3242,
+   "group": "random",
+   "sha1": "ea8d97eade68137d9d30c1325bfd04ed0249c7bc",
+   "spans": []
+  },
+  {
+   "index": 3376,
+   "group": "random",
+   "sha1": "b830a5ab22222ce10efb7a21330853e4b51e1875",
+   "spans": []
+  },
+  {
+   "index": 3436,
+   "group": "random",
+   "sha1": "7b11e5f2e19ca1feb6d400a0d5e7897de22febf8",
+   "spans": []
+  },
+  {
+   "index": 3493,
+   "group": "random",
+   "sha1": "f75fad789d818ef18b059f4d079169366bd15157",
+   "spans": []
+  },
+  {
+   "index": 3511,
+   "group": "random",
+   "sha1": "3100e88ce182c549f92f8fbd66b1b06fa3ac0c25",
+   "spans": []
+  },
+  {
+   "index": 3635,
+   "group": "random",
+   "sha1": "a59c4f1dd5af00d77ff24b19b815e83fd981c778",
+   "spans": []
+  },
+  {
+   "index": 4108,
+   "group": "random",
+   "sha1": "356a192b7913b04c54574d18c28d46e6395428ab",
+   "spans": []
+  },
+  {
+   "index": 4156,
+   "group": "random",
+   "sha1": "356a192b7913b04c54574d18c28d46e6395428ab",
+   "spans": []
+  }
+ ]
+}

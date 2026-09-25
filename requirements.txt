@@ -1,0 +1,11 @@
+python-docx==1.2.0
+presidio-analyzer==2.2.364
+spacy==3.8.16
+Faker==40.39.0
+pytesseract==0.3.13
+pandas==3.0.6
+pillow==12.3.0
+numpy==2.4.6
+opencv-python-headless==4.14.0.94
+pytest==9.1.1
+# spaCy model (installed separately):  python -m spacy download en_core_web_lg
